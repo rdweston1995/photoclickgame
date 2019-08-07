@@ -1,13 +1,10 @@
 import React from "react";
-import "./stylecss";
+import "./style.css";
 
 function ImgCard(props){
     return (
-    <div className="card">
-        <div className="img-container">
-            <img alt={props.name} src={props.image} />
-        </div>
-    </div>
+        <div className="click-item" role="img" aria-label="click item" style={{backgroundImage: "url(https://via.placeholder.com/150)"}} onClick={props.imgOnClick} value="notClicked"></div>
+        // <img src={props.image}/>
     )
 }
 
