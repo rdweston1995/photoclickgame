@@ -5,12 +5,12 @@ function Navbar(props){
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <ul>
-                <li className="brand"><a href="/">TBD</a></li>
-                <li className="clickImage">CLick an image to begin!</li>
+                <li className="brand"><a href="/">Obi-Wan Clicky Game</a></li>
+                <li className="clickImage">Click an image to begin!</li>
                 <li className="navScore">
                     Score:
-                     {props.score}
-                    | Top Score 
+                    {props.score}
+                    <br />Top Score 
                      {props.highScore}
                 </li>
             </ul>

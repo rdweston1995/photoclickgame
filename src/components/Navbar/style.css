@@ -5,9 +5,15 @@ ul{
 }
 
 li{
-    float:left;
     padding: 26px 0px 26px 0px;
     text-align: center;
     width: 33.3%;
     display: inline-block;
+    letter-spacing: 2px;
+    font-family: 'Space Mono', monospace;
+}
+nav{
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
