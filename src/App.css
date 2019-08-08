@@ -1,6 +1,5 @@
 .container{
-    /* margin: 20px; */
-    position: relative;
-    left: 10%;
-    right: 20%;
+    text-align: center;
+    margin: auto;
+    padding: 0 75px 0 75px;
 }

@@ -1,9 +1,14 @@
-.click-item{
-    width: 100px;
-    height: 100px;
+.card{
+    width: 200px;
+    height: 200px;
     border-color:black;
     border-width: 2px;
     border-style:solid;
     float:left;
     margin: 15px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }
